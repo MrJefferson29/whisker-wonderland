@@ -4,12 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 // import Sc2 from "./Sc2";
-import {
-  faDog,
-  faBone,
-  faPaw,
-  faHeart,
-} from "@fortawesome/free-solid-svg-icons";
+import {faDog, faBone, faPaw,} from "@fortawesome/free-solid-svg-icons";
 import g1 from '../Assets/g1.jpg';
 import g2 from '../Assets/g2.webp';
 import i1 from "../Assets/i1.jpg";

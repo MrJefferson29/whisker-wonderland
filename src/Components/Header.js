@@ -27,42 +27,41 @@ const Header = () => {
             className="justify-content-end"
           >
             <Nav className="justify-content-end">
-              <Nav.Link
+              <Link
                 className="link"
-                href="/"
+                to="/"
                 style={{ color: "aliceblue" }}
               >
                 HOME
-              </Nav.Link>
-              <Nav.Link
+              </Link>
+              <Link
                 className="link"
-                href="/adopt-shelter"
+                to="/adopt-shelter"
                 style={{ color: "aliceblue" }}
               >
                 SHELTER
-              </Nav.Link>
-              <Nav.Link
+              </Link>
+              <Link
                 className="link"
-                href="/about"
+                to="/about"
                 style={{ color: "aliceblue" }}
               >
                 ABOUT
-              </Nav.Link>
-              <Nav.Link
+              </Link>
+              <Link
                 className="link"
-                href="/meet-the-team"
+                to="/meet-the-team"
                 style={{ color: "aliceblue" }}
               >
                 TEAM
-              </Nav.Link>
-              <Nav.Link
+              </Link>
+              <Link
                 className="link"
-                href="/terms-and-conditions"
+                to="/terms-and-conditions"
                 style={{ color: "aliceblue" }}
               >
                 POLICY
-              </Nav.Link>
-
+              </Link>
               <>
                 <div className="link">
                 </div>

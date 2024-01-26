@@ -5,7 +5,7 @@ import styled from "styled-components";
 import Sc2 from "./Sc2";
 
 import i2 from "../Assets/i7.jpg";
-import g6 from "../Assets/g6.jpg";
+// import g6 from "../Assets/g6.jpg";
 import c1 from "../Assets/c1.jpg";
 import o1 from "../Assets/o1.jpg";
 import { Link } from "react-router-dom";

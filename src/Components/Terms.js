@@ -1,8 +1,10 @@
 import React from "react";
-import './Terms.css'
+import "./Terms.css";
+import { Container } from "react-bootstrap";
 
 export default function Terms() {
   return (
+    <Container>
     <div>
       <body>
         <h1>Terms and Conditions</h1>
@@ -10,8 +12,8 @@ export default function Terms() {
         <section>
           <h2>1. Pet Adoption and Sale</h2>
           <p>
-            By adopting or purchasing a pet from Whisker Wonderland, you
-            agree to the following terms and conditions.
+            By adopting or purchasing a pet from Whisker Wonderland, you agree
+            to the following terms and conditions.
           </p>
 
           <h2>2. Pet Name</h2>
@@ -34,7 +36,6 @@ export default function Terms() {
             All pets are provided with a health guarantee as outlined in our
             separate health guarantee policy.
           </p>
-
           <h2>5. Returns and Refunds</h2>
           <p>
             Returns and refunds are subject to our return policy. Please refer
@@ -47,5 +48,6 @@ export default function Terms() {
         </footer>
       </body>
     </div>
+    </Container>
   );
 }
